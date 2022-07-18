@@ -1,0 +1,43 @@
+.inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.logo {
+  width: 20rem;
+}
+
+.right,
+.left {
+  height: 100vh;
+}
+
+.left {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right {
+  background-image: url("/public/images/login-img.png");
+  background-position: center;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 500px) {
+  .right {
+    order: 1;
+    height: 50vh;
+  }
+
+  .left {
+    order: 2;
+    height: auto;
+    margin: 3rem 0;
+  }
+
+  .inner {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

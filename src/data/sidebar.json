@@ -1,0 +1,29 @@
+{
+  "pages": [
+    {
+      "id": 1,
+      "name": "Vintage",
+      "link": "/category/vintage"
+    },
+    {
+      "id": 2,
+      "name": "Teddys",
+      "link": "/category/teddy"
+    },
+    {
+      "id": 3,
+      "name": "Rework",
+      "link": "/category/rework"
+    },
+    {
+      "id": 4,
+      "name": "Go Retro",
+      "link": "/category/goretro"
+    },
+    {
+      "id": 5,
+      "name": "Uncategorized",
+      "link": "/category/uncategorized"
+    }
+  ]
+}
